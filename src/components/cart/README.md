@@ -3,6 +3,10 @@
 
 Short description of cart component
 
+Redux Hooks:
+useDispatch
+useSelector
+
 # Example usage
 
 ```js

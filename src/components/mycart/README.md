@@ -6,7 +6,10 @@ Used React Hooks:
 useSelector
 useDispatch
 useState
+
+React Router DOM:
 useNavigate
+
 # Example usage
 
 ```js

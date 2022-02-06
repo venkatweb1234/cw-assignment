@@ -2,6 +2,12 @@
 
 Short description of CategoryRoute component
 
+React_router Dom:
+
+BrowserRouter,
+Routes
+Route
+
 # Example usage
 
 ```js
