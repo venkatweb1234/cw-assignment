@@ -2,6 +2,9 @@
 
 ### This is main README I am going to explain how to run aplication what are all the dependencies added to CW-assignment project.
 
+### Clone the project below command
+git clone https://github.com/venkatweb1234/cw-assignment.git
+
 ### step1: need to run the below command for run the fetch API.
 step1: install npm for below command
 npm install
