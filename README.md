@@ -1,6 +1,6 @@
-### Added README file each and every component and write in detail use of compoent.
+### Added README file for each and every component and write in-detail use of component.
 
-### This is main README I am going to explain how to run aplication what are all the dependencies added to CW-assignment project.
+### This is main README file it explains how to run the application and it shows the what are all the dependencies added to the CW-assignment project.
 
 ### Clone the project below command
 git clone https://github.com/venkatweb1234/cw-assignment.git
