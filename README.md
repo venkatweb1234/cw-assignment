@@ -15,6 +15,15 @@ Step3: Start the application
 
 npm start
 
+Step4: Run test cases
+
+npm run test for all
+
+or
+If u want to run the single test use below command:
+
+npm test test-name --watch 
+
 Dependencies install to this project:
 
 1) npm i json-server
