@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.mthp{
+  margin-top: 6rem !important;
+}
+.pstd
+{
+  position: relative;
+    left: -7em;
+}
+.iteTit
+{
+  width: 53%;
+}
+.CartEmpty
+{
+  background-color: lightgray;
+    text-align: center;
+}
+.image{
+  position: relative;
+}
+.image__img{
+  display: block;
+  width: 100%;
+  height: 13em;
+}
+.image__overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: lightgray;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.image__overlay:hover{
+  opacity: 1;
+}
+.image__overlay:hover> *{
+  opacity: 1;
+}
+.image__overlay > *{
+  transform: translateY(0);
+}
+.image__title{
+  font-size:1em;
+  font-weight: 500;
+}
+.image__description{
+  font-size: 1.25em;
+  margin-top: -5em;
+}
+
+.image__overlay--blur{
+  backdrop-filter: blur(5px);
+}
+.card__image{
+  width: 18rem;
+   height:40%;
+   margin-bottom:5rem !important;
+}
+.card__image__cap
+{
+  height: 6em;
+    width: 85%;
+    position: relative;
+    top: 4em;
+    left: 1em;
+}
+.view_details{
+  border: none;
+    background: #333;
+    color: #fff;
+    height: 2.5em;
+    width: 19rem;
+}
+.add_to_cart{
+  border: none;
+  background: gray;
+  color: white;
+  height: 2.5em;
+  width: 19rem;
+}
+.view_cart_details{
+  z-index: 9;
+  position: relative;
+  top: -3em;
+}
+
+.add_cart_details{
+  z-index: 9;
+  position: relative;
+  top: 1.3em;
+}
+.cart__overview{
+  position: relative;
+  float: right;
+  left: -15em;
+}
+.con_shop_cart{
+  color: gray !important;
+    font-size: 13px;
+    position: relative;
+    top: 6em;
+    left: 2em;
+}
+button#dropdownMenuButton:focus{
+  box-shadow: none !important;
+}
